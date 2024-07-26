@@ -1,0 +1,65 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 3px rgb(250, 97, 123);
+    padding: 25px;
+    font-size: 43px;
+    color:rgb(250, 97, 123);
+}
+ 
+section{
+    background-color: rgb(4, 75, 78);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center
+}
+.chamada-texto {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.Filme-Clube{
+    margin-right: 6%;
+}
+h1{
+    font-size: 33px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.Videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.categoria img{
+    opacity: 0.5;
+    height: 240px ;
+}
+
+.categoria img:hover{
+    opacity: 1.0;
+    border: 3px solid rgb(198, 4, 4, 0.738)
+
+}
+
+.categoria h2{
+    color: rgb(250, 97, 123);
+}
